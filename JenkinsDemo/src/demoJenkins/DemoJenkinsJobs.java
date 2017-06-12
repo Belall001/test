@@ -16,6 +16,8 @@ public class DemoJenkinsJobs {
 		
 		System.out.println("test");
 		
+		System.out.println("Added afterwards");
+		
 		System.setProperty("webdriver.chrome.driver", "C:/Users/Automation/Desktop/Eclipse workspace/JenkinsDemo/lib/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.google.mu");
