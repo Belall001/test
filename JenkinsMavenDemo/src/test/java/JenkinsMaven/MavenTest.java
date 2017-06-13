@@ -17,12 +17,12 @@ public class MavenTest {
 		
 		System.out.println("Hello world2");
 		
-		/**System.setProperty("geckodriver.exe", "C:/Users/Automation/Desktop/Eclipse workspace/JenkinsDemo/lib/chromedriver.exe");
+		System.setProperty("geckodriver.exe", "C:/Users/Automation/Desktop/Eclipse workspace/JenkinsDemo/lib/chromedriver.exe");
 		driver = new FirefoxDriver();
 		driver.get("http://www.google.mu");
 		System.out.print(driver.getTitle());
 		driver.close();
-		**/
+		
 	}
 
 }
